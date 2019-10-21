@@ -45,13 +45,7 @@ Shell1 中导入Shell2 只用给Shell1添加可执行权限。Shell2不用添加
 
 输出 test
 
-2 只读变量12readonly var2=testreadOnlyvar2= ...</div><div class="more_setting"><a class="more more--border more--primary more--animated" href="/2019/09/23/shell脚本学习2/#more" style="margin-top: 14px">Read more</a></div></div></div><div class="recent-post-item article-container"><div class="post_cover is_left"><a href="/2019/09/23/shell脚本学习5/" title="shell echo和转义(五)"><img class="post_bg lozad" data-src="https://i.loli.net/2019/09/26/FrzhuXRD37elnyW.jpg" onerror="onerror=null;src='/img/404.jpg'"></a></div><div class="recent-post-info">  <a class="article-title" href="/2019/09/23/shell脚本学习5/" title="shell echo和转义(五)">shell echo和转义(五)</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-23</time><div class="content">echoread 读取一个输入1read temp  从终端读取一个输入赋值给temp
-
--e 激活转义\c 不换行，\n 换行
-12echo -e &quot;123 \c&quot;echo &quot;test&quot;
-
-输出 123 test 在一行
-定向至文件1echo &quot;a ...</div><div class="more_setting"><a class="more more--border more--primary more--animated" href="/2019/09/23/shell脚本学习5/#more" style="margin-top: 14px">Read more</a></div></div></div><div class="recent-post-item article-container"><div class="post_cover is_right"><a href="/2019/09/23/shell脚本学习3/" title="shell参数传递(三)"><img class="post_bg lozad" data-src="https://i.loli.net/2019/09/26/FrzhuXRD37elnyW.jpg" onerror="onerror=null;src='/img/404.jpg'"></a></div><div class="recent-post-info">  <a class="article-title" href="/2019/09/23/shell脚本学习3/" title="shell参数传递(三)">shell参数传递(三)</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-23</time><div class="content">参数传递参数传入作用在执行shell脚本的时候，向shell脚本传递参数
+2 只读变量12readonly var2=testreadOnlyvar2= ...</div><div class="more_setting"><a class="more more--border more--primary more--animated" href="/2019/09/23/shell脚本学习2/#more" style="margin-top: 14px">Read more</a></div></div></div><div class="recent-post-item article-container"><div class="post_cover is_left"><a href="/2019/09/23/shell脚本学习3/" title="shell参数传递(三)"><img class="post_bg lozad" data-src="https://i.loli.net/2019/09/26/FrzhuXRD37elnyW.jpg" onerror="onerror=null;src='/img/404.jpg'"></a></div><div class="recent-post-info">  <a class="article-title" href="/2019/09/23/shell脚本学习3/" title="shell参数传递(三)">shell参数传递(三)</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-23</time><div class="content">参数传递参数传入作用在执行shell脚本的时候，向shell脚本传递参数
 1./test.sh 1 2 3
 
 参数接收1$n    # 1 表示第一个参数 2 表示第二个参数 ...
@@ -59,7 +53,13 @@ Shell1 中导入Shell2 只用给Shell1添加可执行权限。Shell2不用添加
 其它
 
 $# 传递到脚本的参数个数
-$*  传递给脚本的所有参数 “$*”  传入 1 2 3 输出 相当于传入一 ...</div><div class="more_setting"><a class="more more--border more--primary more--animated" href="/2019/09/23/shell脚本学习3/#more" style="margin-top: 14px">Read more</a></div></div></div><div class="recent-post-item article-container"><div class="post_cover is_left"><a href="/2019/09/23/shell脚本学习4/" title="shell 各种运算符(四)"><img class="post_bg lozad" data-src="https://i.loli.net/2019/09/26/FrzhuXRD37elnyW.jpg" onerror="onerror=null;src='/img/404.jpg'"></a></div><div class="recent-post-info">  <a class="article-title" href="/2019/09/23/shell脚本学习4/" title="shell 各种运算符(四)">shell 各种运算符(四)</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-23</time><div class="content">Shell的各种运算符加减乘除取余就不说了，和平常天天用的一样
+$*  传递给脚本的所有参数 “$*”  传入 1 2 3 输出 相当于传入一 ...</div><div class="more_setting"><a class="more more--border more--primary more--animated" href="/2019/09/23/shell脚本学习3/#more" style="margin-top: 14px">Read more</a></div></div></div><div class="recent-post-item article-container"><div class="post_cover is_right"><a href="/2019/09/23/shell脚本学习5/" title="shell echo和转义(五)"><img class="post_bg lozad" data-src="https://i.loli.net/2019/09/26/FrzhuXRD37elnyW.jpg" onerror="onerror=null;src='/img/404.jpg'"></a></div><div class="recent-post-info">  <a class="article-title" href="/2019/09/23/shell脚本学习5/" title="shell echo和转义(五)">shell echo和转义(五)</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-23</time><div class="content">echoread 读取一个输入1read temp  从终端读取一个输入赋值给temp
+
+-e 激活转义\c 不换行，\n 换行
+12echo -e &quot;123 \c&quot;echo &quot;test&quot;
+
+输出 123 test 在一行
+定向至文件1echo &quot;a ...</div><div class="more_setting"><a class="more more--border more--primary more--animated" href="/2019/09/23/shell脚本学习5/#more" style="margin-top: 14px">Read more</a></div></div></div><div class="recent-post-item article-container"><div class="post_cover is_left"><a href="/2019/09/23/shell脚本学习4/" title="shell 各种运算符(四)"><img class="post_bg lozad" data-src="https://i.loli.net/2019/09/26/FrzhuXRD37elnyW.jpg" onerror="onerror=null;src='/img/404.jpg'"></a></div><div class="recent-post-info">  <a class="article-title" href="/2019/09/23/shell脚本学习4/" title="shell 各种运算符(四)">shell 各种运算符(四)</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-23</time><div class="content">Shell的各种运算符加减乘除取余就不说了，和平常天天用的一样
 exprexpr 通常后面跟一个运算表达式,表示一个运算。如
 1echo `expr 1+2`
 
